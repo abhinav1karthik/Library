@@ -1,0 +1,50 @@
+.Library {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  border: 5px solid black;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.title {
+  margin-right: auto;
+  font-size: x-large;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.container > * {
+  padding: 10px;
+  text-align: center;
+}
+
+.displayBook {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  border: 2px solid black;
+  max-height: 300px;
+  max-width: 200px;
+}
+
+.myButtonDiv {
+  display: flex;
+}
+
+.myButton {
+  margin-left: auto;
+}
+
+.bookStatus {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
